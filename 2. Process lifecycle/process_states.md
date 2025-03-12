@@ -56,7 +56,7 @@ The process lifecycle describes the stages a process goes through in an operatin
 - **Suspend**: From "Ready" to "Suspend/Ready" or "Wait/Block" to "Suspend/Wait" to save memory.
 - **Resume**: From "Suspend/Ready" to "Ready" or "Suspend/Wait" to "Wait/Block" when resources are available.
 - **I/O Request**: From "Run" to "Wait/Block" when the process needs I/O.
-- **Priority/Time Quantum**: From "Run" to "Ready" if the process uses up its CPU time or priority changes.
+- **Priority/Time Quantum**: From "Run" to "Ready" if some other priority process needs the resources.
 - **Process Completes I/O but Still in Suspend**: From "Suspend/Wait" to "Suspend/Ready" when I/O finishes.
 
 ## Real-World Example: Using a Smartphone
